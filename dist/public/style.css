@@ -1,4 +1,13 @@
-header { 
-	background: var(--bg) url(star.svg) top right no-repeat; 
+body {
+	background-image: url(star.svg);
+	background-position: top right;
+	background-repeat: no-repeat;
 	background-size: 3em;
+}
+
+:root {
+	--button-bg: #55a;
+}
+:root .theme-dark {
+	--button-bg: #448;
 }
